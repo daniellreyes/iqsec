@@ -1,0 +1,12 @@
+:root {
+    --digital-dark-blue: #2A2559;
+    --digital-light-blue: #007BDA;
+    --digital-orange: #FF6720;
+
+    --digital-gray: #706F6F;
+    --digital-cream: #F0E3B0;
+}
+
+.h1 {
+    color: green;
+}

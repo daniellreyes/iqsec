@@ -1,0 +1,67 @@
+/*
+    colores iQ-sec
+*/
+:root {
+    --digital-dark-blue: #2A2559;
+    --digital-light-blue: #007BDA;
+    --digital-orange: #FF6720;
+
+    --digital-gray: #706F6F;
+    --digital-cream: #F0E3B0;
+}
+
+.form-container div, .form-container  span{
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+
+.form-container ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    var(--digital-gray);
+}
+
+.form-container :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    var(--digital-gray);
+   opacity:  1;
+}
+
+.form-container ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    var(--digital-gray);
+   opacity:  1;
+}
+
+.form-container :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    var(--digital-gray);
+}
+
+.form-container :placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color:  var(--digital-gray);
+}
+
+.oauth-buttons {
+    text-align:center;
+}
+.row {
+	text-align:center;
+}
+#login-form{
+ min-width:375px;   
+}
+.login-container{
+	width:400px;
+	height:330px;
+	display:inline-block;
+	margin-top: -165px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-left: -200px;
+}
+.form-container .create-account:hover{
+	opacity:.7;
+}
+.form-container .create-account{
+	color:inherit;
+	margin-top: 15px;
+    display: inline-block;
+	cursor:pointer;
+	text-decoration:none;
+}
